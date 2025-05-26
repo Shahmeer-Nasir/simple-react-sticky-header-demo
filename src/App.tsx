@@ -1,9 +1,8 @@
-import React from 'react';
-import {StickyHeader} from '@shahmeernasir/simple-react-sticky-header';
+import { StickyHeader } from "@shahmeernasir/simple-react-sticky-header";
 
 function App() {
   return (
-    <div>
+    <div style={{width: '100%'}}>
       <StickyHeader
         className="my-custom-header"
         onHeaderHeightChange={(h) => console.log('Header height:', h)}
